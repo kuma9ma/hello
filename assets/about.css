@@ -1,0 +1,53 @@
+/* About */
+
+#about{
+    width: 100%;
+    margin-top: 150px;
+    padding: 200px 300px 100px 300px;
+    text-align: center;
+}
+
+.about_wrap {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding:100px 0;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.about_img{
+    width: 30%;
+}
+
+.about_img img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-right: 100px;
+    box-shadow: #333 2px 2px 30px;
+}
+
+.about_text{
+    width: 70%;
+}
+
+.about_text dl{
+    width: 100%;
+}
+
+.about_text dl dt {
+    width: 30%;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.about_text dl dd {
+    width: 70%;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
